@@ -10,12 +10,14 @@ import { HomeComponent } from './components/home/home.component';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { AlertsComponent } from 'src/app/utils/alerts/alerts.component';
 import { MatCardModule } from '@angular/material/card';
+import { CaixaProdutoComponent } from './utils/caixa-produto/caixa-produto.component';
 
 @NgModule({
   declarations: [
     LojaComponent,
     HomeComponent,
-    AlertsComponent
+    AlertsComponent,
+    CaixaProdutoComponent
   ],
   imports: [
     CommonModule,
