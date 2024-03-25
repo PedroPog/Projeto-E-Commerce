@@ -1,0 +1,39 @@
+<mat-drawer-container class="container-side" autosize>
+  <mat-drawer #showFiller class="example-sidenav" mode="over">
+    <mat-toolbar color="primary">
+      <span>{{Title}}</span>
+      <span class="example-spacer"></span>
+    </mat-toolbar>
+
+    <ul>
+      <li *ngFor="let item of menu" routerLink="{{item.link}}"> <!--(click)="showFiller.toggle()"-->
+        <mat-icon fontIcon="{{item.icon}}"></mat-icon>{{item.label}}
+      </li>
+    </ul>
+
+  </mat-drawer>
+
+  <!--HEADER-->
+  <mat-toolbar color="primary">
+    <button mat-icon-button class="example-icon" aria-label="Button Menu"
+    (click)="showFiller.toggle()">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <span>{{Title}}</span>
+    <span class="example-spacer"></span>
+    <button mat-icon-button class="icon cart-icon" aria-label="Button Carrinho">
+      <mat-icon>shopping_cart</mat-icon>
+    </button>
+    <button mat-icon-button class="icon login-icon" aria-label="Button Login">
+      <mat-icon>login</mat-icon>
+    </button>
+  </mat-toolbar>
+  <!--BODY-->
+  <section>
+  <router-outlet></router-outlet>
+  </section>
+  <!--FOOTER-->
+  <footer>
+  &copy; E-Commerce {{ano}} -- Desenvolvido por Pedro Henrique Viera
+  </footer>
+</mat-drawer-container>

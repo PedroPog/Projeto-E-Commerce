@@ -1,7 +1,7 @@
 # Projeto: Criação de paginas web(e-commerce) Utilizando Angular 16V
 
 <ul>
-  <li>O Intuito do projeto foi criar um e-commerce para simular o acesso as paginas web com uso de rotas(conceito SPA - Single-Page Application). Utilizado ferramentas como Angular + SpringBoot + MaterialAngular.</li>
+  <li>O Intuito do projeto foi criar um e-commerce para simular o acesso as paginas web com uso de rotas(conceito SPA - Single-Page Application). Utilizado ferramentas como Angular + SpringBoot + MaterialAngular + PWA.</li>
 </ul>
 
 ## Ferramentas Utilizadas
@@ -10,6 +10,7 @@
   <li>Angular</li>
   <li>SpringBoot</li>
   <li>MaterialAngular</li>
+  <li>PWA</li>
 </ul>
 
 ## Conceitos Utilizados:
@@ -37,5 +38,5 @@
 
 ## Projeto Publicado no link abaixo:
 
-
+https://projeto-e-commerce-red.vercel.app/
 

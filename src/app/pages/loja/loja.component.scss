@@ -1,0 +1,48 @@
+.container-side{
+  width: 100vw;
+  height: 100vh;
+  .example-sidenav{
+    background-color: #3f51b5;
+    ul{
+      width: 100%;
+      list-style: none;
+      padding: 0 4% 0 5%;
+      box-sizing: border-box;
+      height: 70%;
+      display: flex;
+      flex-direction: column;
+      gap: 2%;
+      li{
+        padding: 1% 8% 1% 8%;
+        border-radius: 5px;
+        display: flex;
+        align-items: flex-end;
+        font-size: 0.7rem;
+        justify-content: flex-start;
+        cursor: pointer;
+        gap: 5%;
+        text-overflow: ellipsis;
+        &:active{
+          background-color: #3f51b5;
+          color: white;
+          box-shadow: 1px 1px 2px 1px #0000008a;
+        }
+      }
+    }
+  }
+
+}
+.example-spacer {
+  flex: 1 1 auto;
+}
+footer{
+  display: flex;
+  justify-content: center;
+  padding: 1% 0 1% 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #3f51b5;
+  box-shadow: 0 -1px 9px 4px #00000070;
+  color: white;
+}
